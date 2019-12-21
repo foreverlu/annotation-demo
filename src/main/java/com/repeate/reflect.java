@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
 public class reflect {
 
     public static void main(String[] args) {
-       getAnnotationTest();
+        getAnnotationTest();
 
     }
 

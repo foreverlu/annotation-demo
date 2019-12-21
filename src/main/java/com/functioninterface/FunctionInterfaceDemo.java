@@ -10,7 +10,7 @@ public interface FunctionInterfaceDemo {
 
     String test();
 
-//    @Override
-//    String toString();
+    String toString();
+    int hashCode();
 
 }

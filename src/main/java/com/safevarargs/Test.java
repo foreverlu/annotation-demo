@@ -8,8 +8,8 @@ import java.util.List;
  */
 public class Test {
 
-    @SafeVarargs
-//    @SuppressWarnings("all")
+//    @SafeVarargs
+    @SuppressWarnings("all")
     static void m(List<String>... stringLists) {
         Object[] array = stringLists;
         List<Integer> tmpList = Arrays.asList(42);

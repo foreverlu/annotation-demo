@@ -1,19 +1,16 @@
 package com.requestMapping;
 
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
 /**
- * Created by caoweiwei on 2019/12/14.
+ * Created by caoweiwei on 2019/12/21.
  */
-public class Controller {
 
-    @RequestMapping("/tom")
-    public String tom(){
-        System.out.println("controller------------tom");
-        return "tom";
-    }
-
-    @RequestMapping(("/jack"))
-    public void jack(){
-        System.out.println("controller-----------jack");
-    }
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+public @interface Controller {
 
 }
